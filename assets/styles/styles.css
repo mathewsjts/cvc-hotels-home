@@ -909,6 +909,11 @@ button {
     overflow: hidden;
   }
 
+  .experience__item:hover {
+    box-shadow: var(--box-shadow-hover);
+    cursor: pointer;
+  }
+
   .experience__item__image {
     display: block;
     height: 11.875rem;
@@ -936,9 +941,6 @@ button {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-}
-
-.offer {
 }
 
 .offer__title {
@@ -1097,6 +1099,11 @@ button {
   .offer__item {
     margin: 0;
     width: auto;
+  }
+
+  .offer__item:hover {
+    box-shadow: var(--box-shadow-hover);
+    cursor: pointer;
   }
 
   .offer__item__info {
