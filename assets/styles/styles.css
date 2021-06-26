@@ -328,7 +328,7 @@ button {
 .shortcut__list {
   align-items: center;
   display: flex;
-  gap: 0.5rem;
+  grid-gap: 0.5rem;
   justify-content: flex-start;
   margin-top: -3.875rem;
 }
@@ -376,7 +376,7 @@ button {
 @media (min-width: 768px) {
   .shortcut__list {
     display: grid;
-    gap: 1rem;
+    grid-gap: 1rem;
     grid-template-columns: repeat(4, 1fr);
     margin-top: -4.375rem;
   }
@@ -415,7 +415,7 @@ button {
   align-items: flex-start;
   display: flex;
   justify-content: flex-start;
-  gap: 0.5rem;
+  grid-gap: 0.5rem;
 }
 
 .promotion__highlight__item {
@@ -436,7 +436,7 @@ button {
   align-items: flex-start;
   display: flex;
   justify-content: flex-start;
-  gap: 0.5rem;
+  grid-gap: 0.5rem;
 }
 
 .promotion__item {
@@ -462,12 +462,12 @@ button {
   }
 
   .promotion__wrapper {
-    gap: 1rem;
+    grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
   }
 
   .promotion__highlight__list {
-    gap: 1rem;
+    grid-gap: 1rem;
     overflow: hidden;
   }
 
@@ -477,7 +477,7 @@ button {
   }
 
   .promotion__list {
-    gap: 1rem;
+    grid-gap: 1rem;
   }
 
   .promotion__item {
@@ -538,7 +538,7 @@ button {
 .hotel__list {
   align-items: flex-start;
   display: flex;
-  gap: 0.5rem;
+  grid-gap: 0.5rem;
   justify-content: flex-start;
 }
 
@@ -696,7 +696,7 @@ button {
   }
 
   .hotel__list {
-    gap: 1rem;
+    grid-gap: 1rem;
   }
 
   .hotel__item {
@@ -877,7 +877,7 @@ button {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: flex-start;
-    gap: 1rem;
+    grid-gap: 1rem;
     margin-bottom: 0.5rem;
     position: relative;
     z-index: 1;
@@ -935,7 +935,7 @@ button {
 .offer__list {
   align-items: flex-start;
   display: flex;
-  gap: 0.5rem;
+  grid-gap: 0.5rem;
   justify-content: flex-start;
   margin-top: -10rem;
   position: relative;
@@ -1068,7 +1068,7 @@ button {
 
   .offer__list {
     display: grid;
-    gap: 1rem;
+    grid-gap: 1rem;
     grid-template-columns: repeat(6, 1fr);
     margin: 0;
   }
