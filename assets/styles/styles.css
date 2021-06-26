@@ -328,7 +328,6 @@ button {
 .shortcut__list {
   align-items: center;
   display: flex;
-  grid-gap: 0.5rem;
   justify-content: flex-start;
   margin-top: -3.875rem;
 }
@@ -341,7 +340,12 @@ button {
   display: flex;
   flex-shrink: 0;
   justify-content: flex-start;
+  margin-right: 0.5rem;
   overflow: hidden;
+}
+
+.shortcut__item:last-child {
+  margin-right: 0;
 }
 
 .shortcut__item__image {
@@ -381,6 +385,10 @@ button {
     margin-top: -4.375rem;
   }
 
+  .shortcut__item {
+    margin: 0;
+  }
+
   .shortcut__item__image {
     height: 5.75rem;
     width: 5.625rem;
@@ -415,15 +423,19 @@ button {
   align-items: flex-start;
   display: flex;
   justify-content: flex-start;
-  grid-gap: 0.5rem;
 }
 
 .promotion__highlight__item {
   border-radius: 0.5rem;
   flex-shrink: 0;
   height: 8.75rem;
+  margin-right: 0.5rem;
   overflow: hidden;
   width: 100%;
+}
+
+.promotion__highlight__item:last-child {
+  margin-right: 0;
 }
 
 .promotion__highlight__item img {
@@ -436,13 +448,17 @@ button {
   align-items: flex-start;
   display: flex;
   justify-content: flex-start;
-  grid-gap: 0.5rem;
 }
 
 .promotion__item {
   border-radius: 0.5rem;
   height: 8.75rem;
+  margin-right: 0.5rem;
   overflow: hidden;
+}
+
+.promotion__item:last-child {
+  margin-right: 0;
 }
 
 .promotion__item img {
@@ -467,22 +483,23 @@ button {
   }
 
   .promotion__highlight__list {
-    grid-gap: 1rem;
     overflow: hidden;
   }
 
   .promotion__highlight__item {
     border-radius: 1rem;
     height: 15.625rem;
+    margin-right: 1rem;
   }
 
-  .promotion__list {
-    grid-gap: 1rem;
+  .promotion__highlight__item:last-child {
+    margin-right: 0;
   }
 
   .promotion__item {
     border-radius: 1rem;
     height: 15.625rem;
+    margin-right: 1rem;
   }
 }
 
@@ -538,7 +555,6 @@ button {
 .hotel__list {
   align-items: flex-start;
   display: flex;
-  grid-gap: 0.5rem;
   justify-content: flex-start;
 }
 
@@ -546,10 +562,15 @@ button {
   border-radius: 1rem;
   box-shadow: var(--box-shadow);
   flex-shrink: 0;
+  margin-right: 0.5rem;
   overflow: hidden;
   position: relative;
   width: 9.75rem;
   z-index: 2;
+}
+
+.hotel__item:last-child {
+  margin-right: 0;
 }
 
 .hotel__item__discount {
@@ -695,11 +716,8 @@ button {
     border-color: var(--blue-dark);
   }
 
-  .hotel__list {
-    grid-gap: 1rem;
-  }
-
   .hotel__item {
+    margin-right: 1rem;
     width: 12rem;
   }
 
@@ -935,7 +953,6 @@ button {
 .offer__list {
   align-items: flex-start;
   display: flex;
-  grid-gap: 0.5rem;
   justify-content: flex-start;
   margin-top: -10rem;
   position: relative;
@@ -947,8 +964,13 @@ button {
   border-radius: 1rem;
   box-shadow: var(--box-shadow);
   flex-shrink: 0;
+  margin-right: 0.5rem;
   overflow: hidden;
   width: 9.75rem;
+}
+
+.offer__item:last-child {
+  margin-right: 0;
 }
 
 .offer__item__info {
@@ -1074,6 +1096,7 @@ button {
   }
 
   .offer__item {
+    margin: 0;
     width: auto;
   }
 
